@@ -1,0 +1,47 @@
+div.items{
+    background-color: crimson;
+    height: 75px;
+    width: 155px;
+    margin: 25px;
+}
+div.contenedor{
+    background-color: burlywood;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+div#prueba1{
+   flex-wrap: wrap; 
+}
+div#prueba2{
+    flex-wrap: wrap-reverse; 
+ }
+ div#prueba3{
+    justify-content: flex-end; 
+ }
+ div#prueba4{
+    justify-content: center;
+ }
+ div#prueba5{
+    justify-content: space-between
+ }
+ div#prueba6{
+     justify-content:space-around;
+ }
+ div#prueba7{
+    justify-content: space-evenly;
+ }
+ div.items4{
+    background-color: crimson;
+    height: 75px;
+    width: 155px;
+    margin: 25px;
+    flex-grow: 2;
+}
+div.items3{
+    background-color: crimson;
+    height: 75px;
+    width: 155px;
+    margin: 25px;
+    flex-shrink: 3;
+}
